@@ -1,0 +1,49 @@
+.blog{
+    background-color: aquamarine;
+            border: 5px solid tomato ;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 10px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 5%;
+            text-align: justify;
+            font-family:serif ;
+            font-weight: bold;
+            font-size: 30px;
+}
+h1{
+    color:red;
+    background-color: aquamarine;
+            border: 5px solid tomato ;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 5px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 5%;
+            text-align: justify;
+            font-family:serif ;
+            font-weight: bold;
+            font-size: 30px;
+}
+}
+#b{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.incident{
+    border: 5px solid rgb(179, 13, 104);
+    margin: 10px;
+    
+}
+.header{
+    height: 300px;
+    /* background-color: bisque;
+     */
+    background-image: url('birani.jpeg') ;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-position: center;
+}
