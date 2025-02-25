@@ -1,0 +1,30 @@
+h1{
+    color: #0e0303;
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    size: 300px;
+    border-radius: 20px;
+}
+p{
+    
+        color: #0e0303;
+        background-color: rgb(168, 103, 18);
+        padding: 20px;
+        text-align: center;
+        size: 300px;
+        border-radius: 20px;
+        text-align: justify;
+    
+
+}
+#ll{
+    color: #dce3ee;
+        background-color: rgb(18, 18, 168);
+        padding: 50px;
+        text-align: center;
+        size: 300px;
+        border-radius: 20px;
+        text-align: justify;
+        
+}
