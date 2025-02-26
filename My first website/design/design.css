@@ -1,27 +1,33 @@
- nav > ul > li{
-
-    display:inline;
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
     margin-right: 10px;
-    size: 30px;
-   
-  
-
-
+    padding: 5px;
+    
+}
+nav li:hover{
+    background-color: rgb(199, 187, 168);
+    
 }
 nav li> a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 10px;
     /* padding-bottom: 100px; */ 
+   margin-left: 20px;
     
 }
+
 footer{
     text-align: center;
 }
 header{
-    
-    text-align: right;
-    background-color: rgb(246, 246, 243);
+    height: 40px;
+   
+    background-color: rgb(132, 132, 16);
 }
 
 #join{
@@ -48,4 +54,19 @@ section > p{
 }
 figure{
     align-items: center;
+}
+/* nested menue style */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: azure;
+    text-align: left;
+    padding: 10px;
+
+}
+nav li:hover .dropdown{
+    display: block;
+}
+header > li > a {
+    text-align: right;
 }
